@@ -1,0 +1,19 @@
+{
+  "name": "hello-tc",
+  "version": "1.0.0",
+  "description": "hello yarn",
+  "main": "index.js",
+  "author": "zxb",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node --files src/app.ts"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1"
+  }
+}
