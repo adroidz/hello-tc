@@ -60,7 +60,12 @@ const config = {
         }
 
         return version
-    })()
+    })(),
+    http: {
+        host: "0.0.0.0",
+        port: 8080,
+        timeoutSeconds: 120
+    }
 }
 
 export default config
